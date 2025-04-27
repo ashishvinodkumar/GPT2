@@ -14,10 +14,10 @@ make install
 
 3. Run Training
 ```shell
-Run training.ipynb notebook.
+# Run training.ipynb notebook.
 ```
 
-5. Run Inference
+4. Run Inference
 ```shell
-Run inference.ipynb notebook.
+# Run inference.ipynb notebook.
 ```
