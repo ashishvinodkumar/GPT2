@@ -1,0 +1,7 @@
+ipykernel
+transformers
+torch
+torchvision
+torchaudio
+sentence-transformers
+tiktoken
