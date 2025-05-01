@@ -12,9 +12,15 @@ make venv
 make install
 ```
 
-3. Run Training
+3. Run Training - Single GPU
 ```shell
 # Run training.ipynb notebook.
+```
+
+4. Run Training - Multi GPU
+```
+# Replace nproc_per_node parameter to desired number of GPUs.
+torchrun --standalone --nproc_per_node=1 distributed_training.py
 ```
 
 4. Run Inference
